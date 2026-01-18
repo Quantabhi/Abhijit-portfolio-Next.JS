@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -31,9 +32,9 @@ const Hero = () => {
       y: 20,
     });
 
-  const tl = gsap.timeline({
-    delay: 0.7, 
-  });
+    const tl = gsap.timeline({
+      delay: 0.7,
+    });
 
     tl.to(path, {
       strokeDashoffset: 0,
@@ -73,15 +74,16 @@ const Hero = () => {
           </span>
         </div>
         <div className="hidden md:flex items-center gap-8 text-[10px] font-bold tracking-[0.25em] text-gray-400">
-          <a className="hover:text-black transition-colors" href="#About">
+          <Link href="/about" className="hover:text-black transition-colors">
             ABOUT
-          </a>
-          <a className="hover:text-black transition-colors" href="#work">
+          </Link>
+          <Link href="/work" className="hover:text-black transition-colors">
             WORK
-          </a>
+          </Link>
           <a
-             href="mailto:xyz@email.com"
-            className="hover:text-black transition-colors">
+            href="mailto:abhijitmondal012@gmail.com"
+            className="hover:text-black transition-colors"
+          >
             CONTACT
           </a>
         </div>
@@ -109,8 +111,7 @@ const Hero = () => {
             </div>
 
             <p className="max-w-md text-lg text-gray-600 leading-relaxed font-light">
-              Building high-fidelity digital interfaces with a focus on Swiss
-              design principles, accessibility, and clean code architecture.
+              Iove to  learning new skills and improving every day. I enjoy working with ideas that mix technology, logic and creativity.
             </p>
 
             <div className="pt-6">
@@ -118,12 +119,12 @@ const Hero = () => {
                 aria-label="Scroll to explore more"
                 className="flex items-center gap-2 px-6 h-14 text-sm font-bold uppercase tracking-widest text-[#506795] hover:text-black transition-colors"
               >
-                Scroll for more
+                View Portfolio
                 <span
                   className="material-symbols-outlined"
                   style={{ fontSize: "16px" }}
                 >
-                  arrow_downward
+                  arrow_outward
                 </span>
               </button>
             </div>
