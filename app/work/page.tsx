@@ -4,11 +4,11 @@ import Image from "next/image";
 export default function WorkPage() {
   return (
     <div className="maindiv">
-      <div className="flex flex-col items-center justify-center p-4 font-sans">
-        <div className="second-maindiv w-full text-center flex flex-col items-center gap-8 max-w-[800px] animate-fade-in">
+      <div className="flex flex-col items-center justify-center font-sans">
+        <div className="second-maindiv w-full text-center flex flex-col items-center">
           <div className="w-full flex justify-center mb-12">
             <Image
-              className="illustration w-full max-w-[600px] object-contain h-auto drop-shadow-xl opacity-90 hover:opacity-100 transition-opacity duration-300"
+              className="illustration w-full max-w-[600px] object-contain h-auto"
               src="/images/wip-removebg-preview.png"
               alt="Work in progress"
               width={500}

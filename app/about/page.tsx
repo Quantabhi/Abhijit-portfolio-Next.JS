@@ -57,7 +57,7 @@ export default function AboutPage() {
             </nav>
           </div>
         </header>
-        <main className="grow flex items-center px-8 md:px-12 py-20">
+        <main className="grow flex items-center px-8 md:px-12 ">
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-16 lg:gap-24 items-start">
             <section className="space-y-8">
               <h2 className="font-display text-4xl md:text-3xl text-slate-400">
