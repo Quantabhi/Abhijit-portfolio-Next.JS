@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Link from "next/link";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -49,7 +50,7 @@ const Hero = () => {
           stagger: 0.15,
           ease: "back.out(2)",
         },
-        "-=0.8"
+        "-=0.8",
       )
       .to(
         labels,
@@ -60,7 +61,7 @@ const Hero = () => {
           stagger: 0.15,
           ease: "power2.out",
         },
-        "-=0.5"
+        "-=0.5",
       );
   }, []);
 
@@ -111,7 +112,8 @@ const Hero = () => {
             </div>
 
             <p className="max-w-md text-lg text-gray-600 leading-relaxed font-light">
-              Iove to  learning new skills and improving every day. I enjoy working with ideas that mix technology, logic and creativity.
+              In the era of AI and vibe coding the only real power is thinking
+              and creativity that is what makes the difference.
             </p>
 
             <div className="pt-6">
