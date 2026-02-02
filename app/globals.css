@@ -17,13 +17,19 @@ body {
     "opsz" 24;
 }
 
-#test100{
+#test100 {
   width: 40%;
 }
 
-#test50{
-  left: 40%; 
+#test50 {
+  left: 40%;
   bottom: 100%;
-   transform: translateX(-50%); 
-   margin-bottom: 8px;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }

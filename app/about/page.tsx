@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 
 export default function AboutPage() {
   return (
@@ -60,7 +61,8 @@ export default function AboutPage() {
         <main className="grow flex items-center px-8 md:px-12 ">
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-16 lg:gap-24 items-start">
             <section className="space-y-8">
-              <h2 className="font-display text-4xl md:text-3xl text-slate-400">
+              {/* <h2 className="font-display text-4xl md:text-3xl text-slate-400"> */}
+                 <h2 className="montserrat font-display md:text-3xl text-slate-400">
                 Bio
               </h2>
               <div className="space-y-6 font-feature-advanced">
@@ -73,26 +75,23 @@ export default function AboutPage() {
               </div>
             </section>
             <section className="space-y-8">
-              <h2 className="font-display text-4xl md:text-3xl text-slate-400">
+              <h2 className="montserrat font-display text-4xl md:text-3xl text-slate-400">
                 Personal Story
               </h2>
               <div className="space-y-6">
                 <p className="font-sans text-lg leading-relaxed text-slate-600 ">
-                  I started my career in the financial field. I am working as a Wealth Manager. where I helped people open demat accounts, invest in mutual funds, and solve financial problems.Deep inside me  I knew I wanted more. I wanted to build things, not just sell or advise.I started with Python and slowly moved into web-development . Learning while working a full-time job was not easy, but I stayed consistent.My long-term dream is to shift my career from investment advisory to software engineer. 
-                </p>
-                <p className="font-sans text-lg leading-relaxed text-slate-600 italic">
-                 My journey is not perfect but it is honest. I am still learning, still improving and still moving forward—one step at a time.
+                  I started my career in the financial field. I am working as a Wealth Manager. where I helped people  solve there financial problems.Deep inside me  I knew I wanted more. I wanted to build things, not just sell or advise.I started with Python and slowly moved into web-development . Learning while working a full-time job was not easy, but I stayed consistent.My long-term dream is to shift my career from investment advisory to software engineer. 
                 </p>
               </div>
             </section>
             <section className="space-y-8">
-              <h2 className="font-display text-4xl md:text-3xl text-slate-400">
+              <h2 className="montserrat font-display text-4xl md:text-3xl text-slate-400">
                 Connect
               </h2>
               <div className="space-y-6">
                 <p className="font-sans text-lg leading-relaxed text-slate-600">
                   For business inquiries or just a
-                  friendly hello, email me at <br className="hidden lg:block" />
+                  friendly hello email me at <br className="hidden lg:block" />
                   <a
                     className="text-slate-900 hover:opacity-70 underline underline-offset-4 decoration-slate-300 transition-all font-medium"
                     href="mailto:hello@portfolio.design"
