@@ -1,5 +1,11 @@
 ## Abhijit Portfolio Website – Built with Next.js
 
+<br>
+
+<div align="center">
+<img width="1882" height="852" alt="image" src="https://github.com/user-attachments/assets/bce9fb21-85e1-4f9a-b871-40adb8bcb9fd" />
+</div> 
+
 
 ## 🛠️ Tech Stack
 - Next.js
@@ -14,10 +20,6 @@ This is my first portfolio project, developed using Next.js and Tailwind CSS. Th
 
 
 
-
-<!-- <div align="center">
-<img width="800" height="400" alt="Demo-image" src="" />
-</div> -->
 
 
 <br>
