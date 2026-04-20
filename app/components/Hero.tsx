@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Link from "next/link";
-import Image from "next/image";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -68,9 +68,9 @@ const Hero = () => {
   return (
     <div className="maindiv">
       {/* NAV */}
-      <nav className="relative z-20 px-6 py-8 md:px-12 flex items-center justify-between max-w-[1460px] mx-auto">
+      <nav className="relative z-20 px-6 py-8 md:px-12 flex items-center justify-between  mx-auto">
         <div>
-          <span className="text-xs font-bold tracking-[0.3em] uppercase hidden sm:block">
+          <span className="text-xs font-bold tracking-[0.3em] uppercase hidden sm:block md:max-lg:flex">
             Portfolio
           </span>
         </div>
@@ -94,7 +94,7 @@ const Hero = () => {
       <main className="relative min-h-[calc(100vh-96px)] flex flex-col justify-center overflow-hidden">
         <div className="absolute inset-0 dot-grid opacity-60 pointer-events-none" />
 
-        <div className="max-w-[1440px] mx-auto w-full px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+        <div className="max-w-360 mx-auto w-full px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
           {/* LEFT */}
           <div className="lg:col-span-7 flex flex-col gap-10">
             <div className="flex flex-col gap-8">
@@ -104,7 +104,7 @@ const Hero = () => {
               </h1>
 
               <div className="flex items-center gap-4">
-                <span className="h-[2px] w-16 bg-black" />
+                <span className="h-0.5 w-16 bg-black" />
                 <h2 className="text-sm font-bold uppercase tracking-[0.3em] text-black">
                   Frontend Engineer
                 </h2>
@@ -133,7 +133,7 @@ const Hero = () => {
           </div>
 
           {/* RIGHT — TIMELINE */}
-          <div className="lg:col-span-5 relative h-[500px] lg:h-[650px] flex items-center -mt-20 lg:-mt-32">
+          <div className="lg:col-span-5 relative h-125 lg:h-162.5 flex items-center -mt-20 lg:-mt-32">
             <div className="w-full relative">
               <svg
                 className="w-full h-full overflow-visible"
@@ -198,7 +198,7 @@ const Hero = () => {
                 </span>
               </div>
 
-              <div className="timeline-label absolute right-0 top-[-20px] flex flex-col items-end">
+              <div className="timeline-label absolute right-0 -top-5 flex flex-col items-end">
                 <span className="text-[11px] font-black text-white bg-black px-3 py-1 mt-1 uppercase tracking-tighter italic">
                   Growth
                 </span>

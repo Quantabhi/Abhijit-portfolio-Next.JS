@@ -1,10 +1,24 @@
-<div align="center" >
-<img src="public\images\wip-removebg-preview.png" width="400" height="320">
-<div/>
+## Abhijit Portfolio Website – Built with Next.js
 
-This portfolio is live and under active development.
+
+## 🛠️ Tech Stack
+- Next.js
+- React.js
+- Git & GitHub
+- Tailwindcss
+- gsap
+- stitch.withgoogle
+
+## 📌 Project Description 
+This is my first portfolio project, developed using Next.js and Tailwind CSS. Through this project, I gained hands-on experience in web design and animation.
+
+
+
+
+<!-- <div align="center">
+<img width="800" height="400" alt="Demo-image" src="" />
+</div> -->
+
+
 <br>
-I regularly update it with new features, animations, and projects as part of my journey to become a software developer.
-
-
 <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/263a_fe0f/512.gif" alt="☺" width="32" height="32">
