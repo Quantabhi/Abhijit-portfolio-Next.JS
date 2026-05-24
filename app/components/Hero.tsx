@@ -106,7 +106,7 @@ const Hero = () => {
               <div className="flex items-center gap-4">
                 <span className="h-0.5 w-16 bg-black" />
                 <h2 className="text-sm font-bold uppercase tracking-[0.3em] text-black">
-                  Full Stack Web Developer
+                  Full Stack Web Developerf 
                 </h2>
               </div>
             </div>
