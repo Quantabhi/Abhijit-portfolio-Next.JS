@@ -75,10 +75,10 @@ const Hero = () => {
           </span>
         </div>
         <div className="hidden md:flex items-center gap-8 text-[10px] font-bold tracking-[0.25em] text-gray-400">
-          <Link href="/about" className="hover:text-black transition-colors">
+          <Link href="#" className="hover:text-black transition-colors">
             ABOUT
           </Link>
-          <Link href="/work" className="hover:text-black transition-colors">
+          <Link href="#" className="hover:text-black transition-colors">
             WORK
           </Link>
           <a
@@ -106,7 +106,7 @@ const Hero = () => {
               <div className="flex items-center gap-4">
                 <span className="h-0.5 w-16 bg-black" />
                 <h2 className="text-sm font-bold uppercase tracking-[0.3em] text-black">
-                  Frontend Engineer
+                  Full Stack Web Developer
                 </h2>
               </div>
             </div>
